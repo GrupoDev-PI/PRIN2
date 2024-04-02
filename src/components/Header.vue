@@ -4,7 +4,7 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="" alt="The Software Guy" />
+                <img src="../assets/img/logo.png" alt="The Software Guy" class="logo" />
             </div>
             <nav class="links">
                 <ul>
