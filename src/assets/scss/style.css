@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100vw;
+  display: flex;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+}
+.header .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .links ul {
+  display: flex;
+  list-style: none;
+}
+.header .links ul a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+.header .links ul a:hover {
+  color: #f00;
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
