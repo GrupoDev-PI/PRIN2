@@ -1,9 +1,20 @@
+<template>
+  <div class="container-home">
+    <HeaderVue />
+  </div>
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HeaderVue from "../components/HeaderVue.vue";
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+.container-home {
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: 1fr 3fr 2fr;
+}
+</style>
