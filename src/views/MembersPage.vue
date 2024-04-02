@@ -1,56 +1,25 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted } from 'vue';
+import axios from 'axios'
+
+const dadosMembros = ref([]);
+
+onMounted(async () => {
+  const { data } = await axios.get('http://localhost:3000/membros');
+  console.log(data);
+  dadosMembros.value = data
+})
+</script>
 
 <template>
   <h1>Member's Page</h1>
   <div class="profiles-container">
-    <div class="profile-content">
+    <div v-for="(membro, membroIndex) in dadosMembros" class="profile-content">
       <div><span class="dot"></span></div>
       <div>
-        <h2>Nome do cara</h2>
-        <p>insta</p>
-        <p>gihub</p>
-    
-    
-    </div>
-    </div>
-    <div class="profile-content">
-      <div><span class="dot"></span></div>
-      <div>
-        <h2>Nome do cara</h2>
-        <p>insta</p>
-        <p>gihub</p>
-    
-    
-    </div>
-    </div>
-    <div class="profile-content">
-      <div><span class="dot"></span></div>
-      <div>
-        <h2>Nome do cara</h2>
-        <p>insta</p>
-        <p>gihub</p>
-    
-    
-    </div>
-    </div>
-    <div class="profile-content">
-      <div><span class="dot"></span></div>
-      <div>
-        <h2>Nome do cara</h2>
-        <p>insta</p>
-        <p>gihub</p>
-    
-    
-    </div>
-    </div>
-    <div class="profile-content">
-      <div><span class="dot"></span></div>
-      <div>
-        <h2>Nome do cara</h2>
-        <p>insta</p>
-        <p>gihub</p>
-    
-    
+        <h2>Nome do cara: {{ membro.nome }}</h2>
+        <p>insta: {{ membro.instagram }}</p>
+        <p>github: {{ membro.github }}</p>
     </div>
     </div>
   </div>
