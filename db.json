@@ -4,37 +4,37 @@
       "id": "0",
       "nome": "João Victor Portela Rocha",
       "github": "Joaovictor23t4",
-      "instagram": "joao_tk_victor13"
+      "instagram": "joao_tk_victor13",
+      "foto": "https://avatars.githubusercontent.com/u/131203244?v=4"
     },
     {
       "id": "1",
       "nome": "Kauã Martins Barros",
       "github": "kauabarros-24",
-      "instagram": "kau.barrosoficial"
+      "instagram": "kau.barrosoficial",
+      "foto": "https://avatars.githubusercontent.com/u/125659214?v=4"
     },
     {
       "id": "2",
       "nome": "Lucas Diniz dos Santos",
       "github": "dnzLucas",
-      "instagram": "_lsc5"
+      "instagram": "_lsc5",
+      "foto": "https://avatars.githubusercontent.com/u/122634515?v=4"
     },
     {
       "id": "3",
       "nome": "Luiz Fernando Blume Jacinto",
       "github": "LuizBlume",
-      "instagram": "blumezin"
+      "instagram": "blumezin",
+      "foto": "https://avatars.githubusercontent.com/u/131203223?v=4"
     },
     {
       "id": "4",
       "nome": "Nicolas Steffens Pereira",
       "github": "SPNicolas",
-      "instagram": "steffens_28"
-    },
-    {
-      "id": "5",
-      "nome": "Fábio",
-      "github": "ldmfabio",
-      "instagram": "ldmfabio"
+      "instagram": "steffens_28",
+      "foto": ""
     }
+
   ]
 }
