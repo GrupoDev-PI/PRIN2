@@ -1,9 +1,9 @@
 <script setup>
 import Header from '../components/Header.vue'
-import Project1 from '../components/Project1.vue'
+import Project from '../components/Project.vue'
 </script>
 
 <template>
     <Header />
-    <Project1 />
+    <Project />
 </template>

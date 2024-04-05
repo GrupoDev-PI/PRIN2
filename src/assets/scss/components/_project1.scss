@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    font-family: monospace;
+    justify-content: space-between;
+}
 .project-content {
     display: flex;
     justify-content: space-between;
@@ -6,13 +11,15 @@
     font-family: monospace;
     border-radius: 10px;
     background-color: #dfdfdf;
-    margin: 10px 0 0 10px;
+    margin: 10px;
     .project-image {
         width: 100%;
+        display: flex;
         img {
             width: 100%;
             border-radius: 5px;
             box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+            height: 200px;
         }
     }
 }
