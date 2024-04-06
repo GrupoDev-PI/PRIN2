@@ -21,6 +21,7 @@
 
 <style scoped>
 header {
+    grid-area: header;
     background-color: #C2C2C2;
     font-family: "Inter", sans-serif;
 }
