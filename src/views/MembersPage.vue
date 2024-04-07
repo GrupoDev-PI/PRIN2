@@ -16,11 +16,13 @@ onMounted(async () => {
   <div class="profiles-container">
     <div v-for="(membro, membroIndex) in dadosMembros" class="profile-content">
       <div><img :src="membro.foto" alt="" /></div>
-      <div class="socialMedia" >
+      <div class="socialMedia">
         <h2>{{ membro.nome }}</h2>
-        <p>{{ membro.instagram }}</p>
-        <p>{{ membro.github }}</p>
-        <button>hdsjifbsdf</button>
+        <div class="links">
+          <a :href="membro.instaLink" target="_blank">@{{ membro.instagram }}</a>
+          <a :href="membro.githubLink">@{{ membro.github }}</a>
+        </div>
+        <button>Ver mais</button>
       </div>
     </div>
   </div>
@@ -38,8 +40,8 @@ h1 {
 }
 
 .profile-content {
-  width: 800px;
-  height: 350px;
+  width: 41vw;
+  height: 18vw;
   margin: 10px;
   border-radius: 8px;
   display: flex;
@@ -54,6 +56,7 @@ h1 {
 
 .profile-content:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translateY(-5px);
 }
 
 .profile-content div {
@@ -62,14 +65,15 @@ h1 {
   text-align: center;
 }
 
-button {
-  background-color: #4caf50;
+.socialMedia button {
+  background-color: #C4C4C4;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
+  transition: ease-in-out 0.2s;
 }
 
 .profile-content img {
@@ -79,4 +83,33 @@ button {
   border-radius: 50%;
   display: inline-block;
 }
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia button:hover {
+  background-color: #686868;
+  
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.links a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.links a:hover{
+  color: #396d8b;
+}
+
 </style>
