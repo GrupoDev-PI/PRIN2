@@ -30,9 +30,9 @@
             <p>+11 1234-5678</p>
             <p>luiz.fernando.251107@gmail.com</p>
             <p>nicolassteffenspereira@gmail.com</p>
-            <p>luiz.fernando.251107@gmail.com</p>
-            <p>luiz.fernando.251107@gmail.com</p>
-            <p>luiz.fernando.251107@gmail.com</p>
+            <p>lucasdiniz170885@gmail.com</p>
+            <p>martinsbarroskaua85@gmail.com</p>
+            <p>joãovictor238090@gmail.com</p>
           </div>
         </div>
 
@@ -46,17 +46,17 @@
 <style>
 
   .contacts{
-    display: grid;
-    height: 100vh;
-    place-items: center;
-
-    color: #ffffff;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container{
     max-width: 800px;
     margin:0 auto;
     align-items: center;
-    background-color: rgb(102, 102, 102)
+   
   }
    h2{
     text-align: center;
