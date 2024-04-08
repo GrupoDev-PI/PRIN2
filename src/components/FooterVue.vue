@@ -44,11 +44,53 @@
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
 footer {
+  background-color: #c2c2c2;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-footer {
+  font-family: 'Inter';
+  margin-bottom: 10rem;
+}
+
+.container-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: 2px;
+  color: #000;
+}
+
+.container-projects-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title-projects-footer {
+  font-family: 'Inter';
+}
+
+.name-projects {
+  font-family: 'Inter';
+}
+
+.container-logo > img {
+  width: 200px;
     background-color: #C2C2C2;
     padding: 2rem 3rem 2rem 3rem;
 }
