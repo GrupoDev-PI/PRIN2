@@ -21,7 +21,6 @@
 
 <style scoped>
 header {
-    grid-area: header;
     background-color: #C2C2C2;
     font-family: "Inter", sans-serif;
 }
@@ -48,6 +47,15 @@ header {
     position: relative;
     top: 5px;
     width: 100px;
+}
+
+.link-navegation, .link-authentication {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.link-navegation:hover, .link-authentication:hover {
+    color: #838282;
 }
 
 .button-register {

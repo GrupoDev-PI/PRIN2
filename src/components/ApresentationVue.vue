@@ -8,19 +8,19 @@
         <div class="cards-container">
             <div class="cards-top">
                 <div class="cards">
-                    <img src="/public/home/contato.jpg" alt="" class="img-cards">
+                    <img src="/home/contato.jpg" alt="" class="img-cards">
                     <h2 class="h2-info-card">Contatos</h2>
                     <p class="p-info-card">Fale conosco através dos nossos contatos</p>
                 </div>
                 <div class="cards">
-                    <img src="/public/home/membros.jpg" alt="" class="img-cards">
+                    <img src="/home/membros.jpg" alt="" class="img-cards">
                     <h2 class="h2-info-card">Membros</h2>
                     <p class="p-info-card">Conheça o time da The Projects</p>
                 </div>
             </div>
 
             <div class="cards-bottom">
-                <img src="/public/home/projetos.jpeg" class="img-card-bottom" alt="">
+                <img src="/home/projetos.jpeg" class="img-card-bottom" alt="">
                 <h2 class="h2-info-card">Projetos</h2>
                 <p class="p-info-card">Nossos principais projetos estão aqui.</p>
             </div>
@@ -34,8 +34,7 @@
 
 <style scoped>
 main {
-    grid-area: main;
-    margin: 5rem 3rem 0 3rem;
+    margin: 5rem 3rem 5rem 3rem;
 }
 
 .title {
