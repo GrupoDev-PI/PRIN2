@@ -1,9 +1,16 @@
+<template>
+  <div class="container-home">
+    <HeaderVue />
+    <ApresentationVue />
+    <FooterVue />
+  </div>
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HeaderVue from "../components/HeaderVue.vue";
+import ApresentationVue from "../components/ApresentationVue.vue";
+import FooterVue from "../components/FooterVue.vue";
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+</style>
