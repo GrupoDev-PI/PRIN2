@@ -1,0 +1,40 @@
+{
+  "membros": [
+    {
+      "id": "0",
+      "nome": "João Victor Portela Rocha",
+      "github": "JoaoVictor23t4",
+      "instagram": "joao_tk_victor13"
+    },
+    {
+      "id": "1",
+      "nome": "Kauã Martins Barros",
+      "github": "kauabarros-24",
+      "instagram": "kau.barrosoficial"
+    },
+    {
+      "id": "2",
+      "nome": "Lucas Diniz dos Santos",
+      "github": "dnzLucas",
+      "instagram": "_lsc5"
+    },
+    {
+      "id": "3",
+      "nome": "Luiz Fernando Blume Jacinto",
+      "github": "LuizBlume",
+      "instagram": "blumezin"
+    },
+    {
+      "id": "4",
+      "nome": "Nicolas Steffens Pereira",
+      "github": "SPNicolas",
+      "instagram": "steffens_28"
+    },
+    {
+      "id": "5",
+      "nome": "Fábio",
+      "github": "ldmfabio",
+      "instagram": "ldmfabio"
+    }
+  ]
+}
